@@ -1,1 +1,40 @@
 // Specific CSS for your home-page
+
+.flag-container {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag {
+
+  img {
+    width: 300px;
+    height: 157px;
+  }
+  h1 {
+    text-align: center;
+    background-color: black;
+    width: 300px;
+  }
+}
+
+.flag-1 {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  img {
+    width: 300px;
+    height: 157px;
+  }
+  h1 {
+    text-align: center;
+    background-color: black;
+    width: 300px;
+  }
+}
