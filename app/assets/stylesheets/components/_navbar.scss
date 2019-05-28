@@ -3,10 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 22px;
-  background: white;
-  opacity: 0.9;
-  z-index: 1030;
-  position: fixed;
+  background: black;
+
   width: 100%;
   top: 0;
 }
@@ -15,8 +13,9 @@
 
     a {
     margin-right: 10px;
-    color: rgb(74, 73, 74);
+    color: white;
     font-size: 14px;
+    font-weight: bold;
   }
 }
 .nabvar-logo {
