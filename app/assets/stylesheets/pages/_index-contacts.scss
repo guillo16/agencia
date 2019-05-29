@@ -92,6 +92,7 @@
   h1 {
     font-size: 30px;
     font-weight: bold;
+
   }
   h3 {
     font-size: 18px;
@@ -112,8 +113,8 @@
 
 .images-1 {
  img {
-  width: 350px;
-  height: 200px;
+  width: 300px;
+  height: 170px;
   border-radius: 6px;
   margin-bottom: 20px;
 
@@ -144,24 +145,50 @@
 }
 .content {
   padding: 20px;
+  text-align: center;
   h1 {
     font-size: 25px;
+    font-weight: bold;
   }
 
   p {
     font-size: 12px;
+    color: grey;
+  }
+
+  img {
+    width: 300px;
   }
 }
 
 .content-img {
   img {
-    width: 440px;
+    width: 540px;
+    padding: 20px;
 
 
   }
 }
 
 
+@media (max-width: 575px) {
+  .content-container {
+    display: block;
+    text-align: center;
+  }
+
+  .content {
+    img {
+      display: none;
+    }
+  }
+  .content-img {
+    img {
+      width: 300px;
+
+    }
+  }
+}
 
 
 
