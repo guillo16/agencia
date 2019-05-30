@@ -178,15 +178,15 @@
 
   .content {
     text-align: center;
-  h1 {
-    font-size: 20px;
-    font-weight: bold;
-  }
+    h1 {
+      font-size: 20px;
+      font-weight: bold;
+    }
 
-  p {
-    font-size: 10px;
-    color: grey;
-  }
+    p {
+      font-size: 10px;
+      color: grey;
+    }
     img {
       width: 150px;
     }
@@ -222,15 +222,62 @@
 
 
 
+// carousel
+
+.carousel-caption {
+
+  text-align: center;
+  margin-bottom: 360px;
+  h5 {
+    color: black;
+    font-weight: bold;
+    font-family: italic;
+    font-style: italic;
+  }
+
+  p {
+    color: grey;
+  }
+}
+
+@media (min-width: 1076px) {
+
+  .carousel-item {
+    img {
+      height: 80vh;
+    }
+  }
+
+}
 
 
+@media (min-width: 100px) and (max-width: 675px) {
+  .carousel-caption {
+    text-align: center;
+    margin-bottom: 95px;
+    h5 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 10px;
 
+    }
+  }
+}
 
+@media (min-width: 676px) and (max-width: 768px) {
+  .carousel-caption {
+    text-align: center;
+    margin-bottom: 250px;
+  }
+}
 
-
-
-
-
+@media (min-width: 769px) and (max-width: 1075px) {
+  .carousel-caption {
+    text-align: center;
+    margin-bottom: 360px;
+  }
+}
 
 
 
