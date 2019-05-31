@@ -142,7 +142,7 @@
   display: flex;
   align-items: center;
   margin-top: 60px;
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
 
 }
 .content {
@@ -305,6 +305,9 @@
   }
 }
 /// image hover part
+
+
+
 .wrapper {
 
   display: grid;
@@ -316,11 +319,12 @@
 
 
 }
+
 @media (max-width: 900px) {
   .wrapper {
 
     grid-template-columns: 1fr ;
-    grid-gap: 10px;
+    grid-gap: 15px;
     padding: 10px;
 
   }
@@ -331,7 +335,7 @@
   height: 200px;
   img {
     width: 100%;
-  height: 100%;
+    height: 100%;
   }
 
 
@@ -342,7 +346,7 @@
   height: 200px;
   img {
     width: 100%;
-  height: 100%;
+    height: 100%;
   }
 }
 
@@ -351,7 +355,7 @@
   height: 200px;
   img {
     width: 100%;
-  height: 100%;
+    height: 100%;
   }
 
 }
